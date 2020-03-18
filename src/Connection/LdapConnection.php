@@ -31,11 +31,11 @@ class LdapConnection implements ConnectionInterface
      */
     public function attempt(string $username, string $password, bool $bindAsUser = FALSE): bool
     {
-        if ($this->provider === NULL) {
-            $this->connect();
-        }
-
         try {
+            if ($this->provider === NULL) {
+                $this->connect();
+            }
+
             if ($this->provider->auth()->attempt($username, $password)) {
                 return TRUE;
             }
