@@ -19,7 +19,7 @@
     "require": {
         "php": ">=7.1",
         "surda/adldap2-nette": "^1.0",
-        "surda/ldap-interface": "^1.0"
+        "surda/ldap-interface": "^1.2"
     },
     "require-dev": {
         "nette/tester": "^2.0",
