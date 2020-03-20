@@ -6,7 +6,7 @@ use Nette\DI\CompilerExtension;
 use Nette\Schema\Expect;
 use Nette\Schema\Schema;
 use stdClass;
-use Surda\Adldap\Extra\LdapCredentialsFactory;
+use Surda\Adldap\Extra\Credentials\LdapCredentialsFactory;
 
 /**
  * @property-read stdClass $config

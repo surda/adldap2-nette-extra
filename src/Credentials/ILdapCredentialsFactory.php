@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Surda\Adldap\Extra;
+namespace Surda\Adldap\Extra\Credentials;
 
 interface ILdapCredentialsFactory
 {
